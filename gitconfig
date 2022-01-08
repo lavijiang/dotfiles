@@ -1,0 +1,8 @@
+[alias]
+    st = status
+    br = branch -v
+    co = checkout
+    ci = commit
+    lo = log --pretty=oneline --abbrev-commit --decorate
+    lg = log --pretty=oneline --graph --abbrev-commit --decorate
+    cl = clone --recursive
